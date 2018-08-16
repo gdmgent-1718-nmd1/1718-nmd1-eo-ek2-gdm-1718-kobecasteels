@@ -125,30 +125,6 @@ hr {
     border-top: 1px solid rgba(0, 0, 0, 0.151);
 }
 
-.home {
-    background-color: black;
-    color: #C5DD6E ;
-}
-.About {
-    background-color: black;
-    color: white;
-}
-.shows {
-    background-color: black;
-    color: white;
-}
-.media {
-    background-color: black;
-    color: white;
-}
-.Shop {
-    background-color: black;
-    color: white;
-}
-.Contact {
-    background-color: black;
-    color: white;
-}
 .text1 {
     font-family: 'PT Sans', sans-serif;
 }

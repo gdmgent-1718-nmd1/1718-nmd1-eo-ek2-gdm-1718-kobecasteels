@@ -10,5 +10,152 @@
 </head>
 <body>
     <h1>Digital Styleguide</h1>
+    <p> Op deze pagina komt de digitale styleguide die een overzicht geeft over hoe de website er zal uitzien. 
+            het is een digitaal huisstijlhandboek. Hierin komen alle elementen van de gebruikersinterface voor die gebruikt kunnen worden op de website (logo, kleuren, navigatie, titel, tussentitels, tekst, links, knoppen, iconen …).</p>
+        
+            <h2>Logo</h2>
+        <P>
+                Het logo is een bovenaanzicht van een hoed met "HATS" in het midden. 
+     <ul>
+               <li> Beeldmerk</li>
+                basis cirkelvormige stilering van een hoed.
+               </ul>
+               <ul> 
+              <li>Woordmerk</li> 
+                "HATS" in het center van de gestileerde hoed.
+        </ul> 
+       <ul> 
+           
+    </ul>
+    </P>
+        <hr>
+        <h2>Kleuren</h2>
+        <div class="Kleuren">
+            <table>
+               
+        
+                <tr>
+                    <td align="center">Lichtblauw (verplichte kleur)<br>Rgb(92, 219, 215)<br> Hex #5CDBD7 <br> 	hsl(178, 64%, 61%)
+                    </td>   
+                        </td>
+                    <td align="center">wit<br>Rgb	(255, 255, 255) <br>Hex	#FFFFFF <br>Hsl	(0, 0%, 100%)
+                    </td> 
+                    <td align="center">zwart<br>Rgb	(0, 0, 0) <br> Hex	#000000 <br> Hsl	(0, 0%, 0%) </td>
+                </tr>
+               
+            </table>
+        </div>
+        <hr>
+    
+        <h2>Typografie </h2>
+       <table frame="box" rules="all">
+       <tr> 
+            <td>
+                <div class="tekst1"><h3>Source sans pro bold </h3></div> 
+            </td>
+            <td> Corpsgrootte 30pt  </td>
+            <td>Dit lettertype wordt gebruik bij navigatieknoppen</td>
+        </tr> 
+    
+       <tr> <td><div class="tekst2">
+            <h3>Source sans pro bold</h3>
+        </div>
+    </td> 
+     <td>Corpsgrootte 64pt </td>
+     <td> Dit lettertype word gebruikt op de homepagina voor de mystery box</td>
+    </tr>
+      
+    
+       <tr> <td><div class="tekst3">
+        <h3>source sans pro regular</h3>
+    </div> 
+    </td>  
+     <td>Corpsgrootte 37pt </td>
+     <td> Dit lettertype word gebruikt voor keuzeknoppen</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    </table> 
+    <hr>
+    <div class="Navigatie"><h2>Navigatie</h2>
+    
+    
+    <div class="navigatiebalk">
+    
+            <button class="home">MEN</button>
+    
+    
+            <button class="About">WOMEN</button>
+    
+    
+    
+            <button class="shows">CONTACT</button>
+    
+    
+            <button class="media">TERMS</button>
+    
+            
+    
+    </div></div>
+    
+    
+    
+    <script>
+    function Inschrijven() {
+        var email = prompt("Vul hier uw e-mailadres in.", "Voorbeeld@gmail.com");
+        if (email != null & email != "Voorbeeld@gmail.com") {
+            document.getElementById("inschrijving").innerHTML =
+            "U ontvangt een registratiemail op dit email adres:"+email;
+        }
+    }
+    </script>
+        
+        
+        <h2>Input </h2>
+        <input type='text' name='name' />
+        <hr>
+        <h2>Links</h2>
+        <a href="www.youtube.be">youtube</a> <br>
+        <a href="www.instagram.com">instagram</a> <br>
+        <a href="www.facebook.com">facebook</a> <br>
+        <a href="www.twitter.com">twitter</a> <br>
+        <hr>
+        <h2>Iconen</h2>
+        <img src="../pages/images/facebook.png" alt=a fbeelding 3 width="40" hspace="10"> <br>
+        <img src="../pages/images/instagram-colourful-icon.png" alt=a fbeelding 3 width="40" hspace="10"> <br>
+        <img src="../pages/images/Youtube-logo-2017-640x480.png" alt=a fbeelding 3 width="80" hspace="20"> <br>
+        <img src="../pages/images/580b57fcd9996e24bc43c53e.png" alt=a fbeelding 3 width="40" hspace="10"> <br>
+        
+    
+        <hr>
+        <h2>Contact </h2>
+        <form action="contact" method="post" autocomplete="off">
+            <span style="display: none;">
+                <input type='text' name='message1' />
+                <br>
+                <br>
+            </span>
+            <label> naam </label>
+            <input type='text' name='name' />
+            <br>
+            <br>
+            <label>email-adres</label>
+            <input type='email' name='email' required />
+            <br>
+            <br>
+            <label>Vul hier je bericht in</label>
+            <textarea style="height: 4em;" type='text' name='mymessage' required></textarea>
+            <br>
+            <br>
+            <input type='submit' class="btn" value='Verstuur Bericht ' />
+        </form>
+        </h3>
+        <hr>
+      
+        <script>alert("HATS heet je welkom")</script>
 </body>
 </html>
